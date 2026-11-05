@@ -140,5 +140,5 @@ class Usuario:
         self.valoraciones[concierto] = valoracion
 
     def __str__(self):
-        return f'{self.nombre} ha asistido a {len(self.conciertos_asistidos)} conciertos'
+        return f'{self.nombre} (ha asistido a {len(self.conciertos_asistidos)})'
     
